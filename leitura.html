@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Clube de Ideias - As Crônicas de Nárnia</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f3f3f3;
+      color: #333;
+    }
+
+    header,
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav {
+      background: #444;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1,
+    h2 {
+      text-align: center;
+    }
+
+    .intro,
+    .autor,
+    .lista-livros {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: #ffffffcc;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      margin-bottom: 20px;
+    }
+
+    section {
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 12px;
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .estetica {
+      font-style: italic;
+      opacity: 0.85;
+    }
+
+    .tema {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    section::before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      right: -20px;
+      bottom: -20px;
+      left: -20px;
+      background-image: url('https://i.imgur.com/ZXBtVw7.png');
+      background-size: 300px;
+      background-repeat: no-repeat;
+      background-position: top right;
+      opacity: 0.15;
+      pointer-events: none;
+      mix-blend-mode: overlay;
+      z-index: 0;
+    }
+
+    section * {
+      position: relative;
+      z-index: 1;
+    }
+
+    .sobrinho {
+      background: linear-gradient(135deg, #6e44ff, #8a72f1);
+    }
+
+    .leao {
+      background: linear-gradient(135deg, #dfe9f3, #91a7ff);
+      color: #1e1e1e;
+    }
+
+    .cavalo {
+      background: linear-gradient(135deg, #f6bd60, #e07a5f);
+    }
+
+    .caspian {
+      background: linear-gradient(135deg, #5eaaa8, #15616d);
+    }
+
+    .peregrino {
+      background: linear-gradient(135deg, #1a759f, #168aad);
+    }
+
+    .cadeira {
+      background: linear-gradient(135deg, #2b2d42, #8d99ae);
+    }
+
+    .ultima {
+      background: linear-gradient(135deg, #3d405b, #0d1b2a);
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a href="./index.html">
+      <h1>Clube de Ideias</h1>
+    </a>
+    <p>Bem-vindo ao nosso espaço de conhecimento e diversão!</p>
+  </header>
+
+  <nav>
+    <a href="./esportes.html">Esportes</a>
+    <a href="./curiosidades.html">Curiosidades</a>
+    <a href="./cultura.html">Cultura</a>
+    <a href="./pipas.html">Pipas</a>
+    <a href="./novelas-series.html">Novelas e Séries</a>
+    <a href="./leitura.html">Leitura</a>
+  </nav>
+
+  <h1>📚 As Crônicas de Nárnia – Resumos e Guia de Leitura</h1>
+
+  <div class="intro">
+    <h2>🌟 Por que ler Nárnia?</h2>
+    <p>A série <strong>As Crônicas de Nárnia</strong> é mais do que uma saga de fantasia: é uma jornada sobre coragem,
+      redenção, fé e descoberta...</p>
+  </div>
+
+  <div class="autor">
+    <h2>✍️ Sobre o autor: C.S. Lewis</h2>
+    <p><strong>Clive Staples Lewis (1898–1963)</strong> foi um escritor, professor e apologista cristão britânico...</p>
+  </div>
+
+  <div class="lista-livros">
+    <h2>📖 Ordem cronológica dos livros:</h2>
+    <ul>
+      <li>O Sobrinho do Mago</li>
+      <li>O Leão, a Feiticeira e o Guarda-Roupa</li>
+      <li>O Cavalo e Seu Menino</li>
+      <li>Príncipe Caspian</li>
+      <li>A Viagem do Peregrino da Alvorada</li>
+      <li>A Cadeira de Prata</li>
+      <li>A Última Batalha</li>
+    </ul>
+  </div>
+
+  <!-- Seções dos livros -->
+  <section class="sobrinho">
+    <h2>🟡 1. O Sobrinho do Mago</h2>
+    <p class="estetica">Estética: Místico & Fundacional</p>
+    <p>Digory e Polly descobrem mundos paralelos...</p>
+    <p class="tema">✨ Temas: Origem, tentação, responsabilidade.</p>
+  </section>
+
+  <section class="leao">
+    <h2>❄️ 2. O Leão, a Feiticeira e o Guarda-Roupa</h2>
+    <p class="estetica">Estética: Inverno Encantado</p>
+    <p>Os irmãos Pevensie entram em Nárnia por um guarda-roupa mágico...</p>
+    <p class="tema">🦁 Temas: Redenção, coragem, sacrifício, realeza.</p>
+  </section>
+
+  <section class="cavalo">
+    <h2>🏜️ 3. O Cavalo e Seu Menino</h2>
+    <p class="estetica">Estética: Aventura Oriental</p>
+    <p>Shasta foge da Calormânia com Bree...</p>
+    <p class="tema">🏇 Temas: Fuga, destino, descoberta pessoal.</p>
+  </section>
+
+  <section class="caspian">
+    <h2>🌲 4. Príncipe Caspian</h2>
+    <p class="estetica">Estética: Resistência & Renascimento</p>
+    <p>Caspian busca retomar o trono de Nárnia com a ajuda dos Pevensie...</p>
+    <p class="tema">🗡️ Temas: Justiça, fé restaurada, renascimento do antigo.</p>
+  </section>
+
+  <section class="peregrino">
+    <h2>🌊 5. A Viagem do Peregrino da Alvorada</h2>
+    <p class="estetica">Estética: Marítima & Filosófica</p>
+    <p>Os personagens enfrentam ilhas misteriosas em busca dos lordes perdidos...</p>
+    <p class="tema">🌠 Temas: Busca, transformação, limite entre realidade e espiritual.</p>
+  </section>
+
+  <section class="cadeira">
+    <h2>🌫️ 6. A Cadeira de Prata</h2>
+    <p class="estetica">Estética: Sombriamente Aventura</p>
+    <p>Jill e Eustáquio partem em busca do príncipe Rilian...</p>
+    <p class="tema">🔍 Temas: Memória, resistência ao engano, confiança nos sinais.</p>
+  </section>
+
+  <section class="ultima">
+    <h2>🔥 7. A Última Batalha</h2>
+    <p class="estetica">Estética: Apocalíptico & Eterno</p>
+    <p>Um falso Aslam gera caos em Nárnia. A verdadeira Nárnia é revelada no fim...</p>
+    <p class="tema">📜 Temas: Fim e começo, verdade, eternidade.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Clube de Ideias</p>
+  </footer>
+
+</body>
+
+</html>
